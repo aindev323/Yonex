@@ -7,6 +7,7 @@ import Main from './pages/Main';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Cart from './pages/Cart';
+import './App.css';
 
 function App() {
     const [openMenu, setOpenMenu] = useState(null);
@@ -23,6 +24,8 @@ function App() {
 
     return (
         <>
+            <a href="#mainSection" className="skip-nav">본문으로 바로가기</a>
+            
             <Header 
                 openMenu={openMenu} 
                 toggleMenu={toggleMenu} 

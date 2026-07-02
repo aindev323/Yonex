@@ -5,7 +5,7 @@ import {Video,Collection,Banner,MdPick,News} from '../component';
 function Main(){
     return(
         <>
-        <section id='mainSection'>
+        <section id='mainSection' tabIndex="-1">
                 <Video/>
                 <Collection/>
                 <Banner
